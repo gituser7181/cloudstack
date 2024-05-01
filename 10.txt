@@ -1,0 +1,59 @@
+
+EX NO: 10	STUDY OF AWS FOUNDATIONAL SECURITY
+	
+Aim: 
+To Study about AWS Foundational security in detail.
+AWS Foundational Security:
+•	The AWS Foundational Security Best Practices standard is a set of controls that detect when your deployed accounts and resources deviate from security best practices.
+•	You can use this standard to continually evaluate all of your AWS accounts and workloads and quickly identify areas of deviation from best practices. 
+•	The standard provides actionable and prescriptive guidance on how to improve and maintain your organization’s security posture. 
+•	The controls include best practices from across multiple AWS services. 
+•	Each control is assigned a category that reflects the security function that it applies to. 
+•	For more information, see Control categories in the AWS Security Hub User Guide.
+Using this framework to support your audit preparation:
+•	You can use the AWS Foundational Security Best Practices framework to help you prepare for audits. 
+•	This framework includes a prebuilt collection of controls with descriptions and testing procedures. 
+•	These controls are grouped into control sets according to AWS Foundational Security Best Practices requirements. 
+•	You can also customize this framework and its controls to support internal audits with specific requirements.
+•	Using the framework as a starting point, you can create an Audit Manager assessment and start collecting evidence that’s relevant for your audit. 
+•	After you create an assessment, Audit Manager starts to assess resources in your AWS accounts and services. 
+•	It does this based on the controls that are defined in the AWS Foundational Security Best Practices framework. 
+•	When it's time for an audit, you—or a delegate of your choice—can review the evidence that Audit Manager collected. Either, you can browse the evidence folders in your assessment and choose which evidence you want to include in your assessment report. Or, if you enabled evidence finder, you can search for specific evidence and export it in CSV format, or create an assessment report from your search results. 
+•	Either way, you can use this assessment report to show that your controls are working as intended.
+•	The AWS Foundational Security Best Practices framework details are as follows
+Framework name in AWS Audit Manager	Number of automated controls	Number of manual controls	Number of control sets	AWS services in scope
+AWS Foundational Security Best Practices	154	0	29	AWS Security Hub
+•	The controls in this AWS Audit Manager framework aren't intended to verify if your systems are compliant with AWS Foundational Security Best Practices. 
+•	Moreover, they can't guarantee that you'll pass an AWS Foundational Security Best Practices audit.
+•	You can find this framework under the Standard frameworks tab of the Framework library in Audit Manager.
+Control categories:
+•	Each control is assigned a category. The category for a control reflects the security function that the control applies to.
+•	The category value contains the category, the subcategory within the category, and, optionally, a classifier within the subcategory. For example:
+o	Identify > Inventory
+o	Protect > Data protection > Encryption of data in transit
+•	Identify: Develop the organizational understanding to manage cybersecurity risk to systems, assets, data, and capabilities.
+•	Protect: Develop and implement the appropriate safeguards to ensure delivery of critical infrastructure services and secure coding practices.
+•	Detect: Develop and implement the appropriate activities to identify the occurrence of a cybersecurity event.
+•	Respond: Develop and implement the appropriate activities to take action regarding a detected cybersecurity event.
+•	Recover: Develop and implement the appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity event.
+
+
+
+Key advantages of AWS Foundational Security:
+1.	Best practice guidance: AWS Foundational Security provides customers with a comprehensive set of best practices for securing their cloud infrastructure. These best practices are based on industry standards and recommendations, and are regularly updated to reflect the latest threats and security trends.
+2.	Simplified security management: By following the best practices outlined in AWS Foundational Security, customers can simplify their security management processes. This includes automating the deployment and management of security controls, as well as streamlining identity and access management policies.
+3.	Compliance and risk management: AWS Foundational Security provides a framework for achieving and maintaining compliance with various regulatory requirements such as PCI DSS, HIPAA, and SOC 2. This helps customers reduce their risk exposure to security breaches and data loss.
+4.	Improved incident response: AWS Foundational Security provides guidance on how to prepare for and respond to security incidents in the cloud. This includes best practices for detecting and investigating security incidents, as well as guidelines for recovering from data loss or system disruptions.
+5.	Security monitoring and logging: AWS Foundational Security provides guidance on how to implement effective security monitoring and logging in the cloud. This includes best practices for collecting and analyzing security logs, as well as guidelines for implementing intrusion detection and prevention systems.
+
+
+
+
+
+
+
+
+
+
+Result: 
+Thus the study about Amazon AWS Foundational security was made successfully.

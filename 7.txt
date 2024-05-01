@@ -1,0 +1,55 @@
+1.	Log in to the CloudStack web interface as an administrator.
+
+2.	Navigate to the "Infrastructure" tab and click "Zones".
+3.	Click "Add Zone" and fill in the following information:
+Zone Name: The name of your zone
+Zone Type: Choose "Advanced" for more control over your network configuration
+DNS Type: Choose "Virtual" if you want CloudStack to manage DNS for your virtual machines
+Guest CIDR: The CIDR block for your guest network (e.g. 10.1.1.0/24)
+VLAN: Choose "No" if you don't want to use VLANs, or "Yes" if you do
+Network Offerings: Choose the network offerings that you want to make available in this zone
+Primary Storage: Choose the primary storage provider that you want to use (e.g. NFS)
+ 
+4.	Click "Next" and fill in the following information:
+Hypervisor: Choose the hypervisor that you want to use (e.g. KVM)
+Hosts: Add the hosts that you want to use in this zone
+5.	Click "Next" and fill in the following information:
+Storage: Choose the storage provider that you want to use for secondary storage (e.g. NFS)
+System VMs: Choose the system VM template that you want to use (e.g. CentOS 7)
+6.	Click "Next" and review your settings. Click "Finish" to create the zone.
+7.	Navigate to the "Compute" tab and click "Service Offerings".
+8.	Click "Add Service Offering" and fill in the following information:
+Name: The name of your service offering
+CPU: The number of CPU cores to allocate
+Memory: The amount of memory to allocate (in MB)
+Network Rate: The network rate for your virtual machines (in Mbps)
+
+
+9.	Click "Next" and review your settings. Click "Finish" to create the service offering.
+10.	Navigate to the "Compute" tab and click "Templates".
+11.	Click "Add Template" and fill in the following information:
+Name: The name of your template
+URL: The URL for your template (e.g. http://mirror.centos.org/centos/7/os/x86_64/)
+Format: The format of your template (e.g. QCOW2)
+Zone: Choose the zone where you want to register the template
+OS Type: The type of operating system that your template is based on (e.g. Linux)
+Password Enabled: Choose "Yes" if you want to set a default password for your virtual machines
+12.	Click "Next" and review your settings. Click "Finish" to register the template.
+13.	Navigate to the "Compute" tab and click "Instance Groups".
+14.	Click "Add Instance Group" and fill in the following information:
+Name: The name of your instance group
+Description: A brief description of your instance group
+Zone: The zone where you want to create the instance group
+Network: The network that you want to use for your virtual machines
+Service Offering: The service offering that you want to use for your virtual machines
+Template: The template that you want to use for your virtual machines
+ 
+15.	Click "Next" and review
+
+
+
+
+
+
+
+

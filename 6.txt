@@ -1,0 +1,31 @@
+1.	Install the CloudStack management server dependencies:
+sudo yum install -y java-1.8.0-openjdk python-setuptools mysql-connector-java maven tomcat
+2.	Install MySQL server and client:
+sudo yum install -y mariadb mariadb-server
+3.	Start the MySQL service and enable it to start on boot:
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+4.	Run the MySQL secure installation script and follow the prompts to set the root password and other security options:
+sudo mysql_secure_installation
+5.	Download the CloudStack source code:
+git clone https://github.com/apache/cloudstack.git
+6.	Navigate to the CloudStack directory:
+cd cloudstack
+7.	Build the CloudStack management server:
+mvn -P developer -Dsimulator -DskipTests clean install
+8.	Deploy the CloudStack management server to Tomcat:
+sudo mv ./client/target/cloud-client-ui-4.15.0.0-SNAPSHOT.war /var/lib/tomcat/webapps/client.war
+sudo mv ./server/target/cloudstack-management-4.15.0.0-SNAPSHOT.war /var/lib/tomcat/webapps/client.war
+9.	Configure the CloudStack database:
+cd /usr/share/cloudstack-management/setup/db/
+sudo ./create-schema.sh
+sudo ./cloudstack-awsapi.sql
+sudo ./cloudstack-setup-databases cloud:password@localhost --deploy-as=root
+10.	Configure the CloudStack management server:
+cd /etc/cloudstack/management/
+sudo cp -p db.properties.template db.properties
+11.	Edit the db.properties file to match your MySQL configuration:
+sudo vi db.properties
+12.	Restart Tomcat to apply the changes:
+sudo systemctl restart tomcat
+13.	Access the CloudStack web interface by navigating to http://your-server-ip/client in your web browser.

@@ -1,0 +1,64 @@
+Ex. No: 5	STUDY ON AWS CLOUD
+	
+
+Aim: 
+To Study about the AWS Cloud.
+Introduction to AWS Cloud:
+Amazon Web Services (AWS) is a cloud computing platform that provides a wide range of infrastructure and services to individuals, organizations, and governments. AWS offers a broad set of global cloud-based products, including storage, databases, analytics, networking, mobile, development tools, enterprise applications, security, and Internet of Things (IoT).
+AWS provides a scalable, secure, and reliable infrastructure to help organizations and individuals deploy their applications and data in the cloud. AWS infrastructure is spread across multiple geographic locations and is designed to provide high availability and resilience to ensure that applications and data are always available.
+AWS is a pay-as-you-go service, which means that users only pay for what they use, with no up-front costs or long-term commitments required. AWS offers a range of pricing options, including hourly, monthly, and yearly plans, as well as discounts for reserved instances and savings plans.
+AWS Sign-in:
+•	Sign in to the AWS Management Console as the root user: When you first create an AWS account, you begin with one sign-in identity that has complete access to all AWS services and resources in the account. This identity is called the AWS account root user and is accessed by signing in with the email address and password that you used to create the account.
+•	Sign in to the AWS Management Console as an IAM user: An IAM user is an identity created within an AWS account that has permission to interact with AWS resources. IAM users sign-in using their account ID or alias, their user name, and a password. IAM user names are configured by your administrator. IAM user names can be either friendly names, such as Zhang, or email addresses such as zhang@example.com.
+Configuring AWS Cloud:
+1.	Create an AWS account: If you don't already have one, go to the AWS website and sign up for an AWS account.
+2.	Choose a region: Choose the region where you want to host your resources. Each region is a separate geographic area with its own data centers.
+3.	Choose your services: Choose the AWS services you want to use. For example, if you want to host a website, you'll need to set up an EC2 instance and an Elastic Load Balancer.
+4.	Launch your resources: Once you've chosen your services, you can launch your resources. This typically involves creating an instance or setting up a database.
+5.	Configure your resources: After you've launched your resources, you'll need to configure them. This might involve setting up security groups, assigning IP addresses, or configuring storage.
+6.	Test and deploy: Once your resources are set up and configured, you'll want to test your application or website to ensure it's working properly.
+7.	Monitor and optimize: As you use your AWS resources, you'll want to monitor them to ensure they're performing optimally. You can use AWS monitoring tools like CloudWatch to track your resources and receive alerts when issues arise.
+Uses of AWS cloud:
+There are numerous uses of AWS cloud, as it provides a wide range of cloud computing services and infrastructure that can be used to support many different types of applications and workloads. Here are some common uses of AWS cloud:
+1.	Hosting websites and web applications: AWS can be used to host websites and web applications, with services like Amazon EC2 and Amazon S3 providing compute and storage resources.
+2.	Developing and deploying mobile applications: AWS provides a range of services that can be used to develop, test, and deploy mobile applications, including AWS Mobile Hub and AWS Device Farm.
+3.	Running big data and analytics workloads: AWS provides services like Amazon EMR, Amazon Redshift, and Amazon Kinesis for running big data and analytics workloads, allowing users to process and analyze large amounts of data quickly and efficiently.
+4.	Deploying and managing containers: AWS provides services like Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS) for deploying and managing containerized applications.
+5.	Running machine learning models: AWS provides services like Amazon SageMaker and Amazon Rekognition for building, training, and deploying machine learning models in the cloud.
+6.	Disaster recovery and backup: AWS can be used to set up disaster recovery and backup solutions, with services like Amazon Glacier and AWS Backup providing secure and durable storage for data backups.
+7.	Internet of Things (IoT) applications: AWS provides a range of services for building and managing IoT applications, including Amazon IoT Core and AWS IoT Analytics.
+These are just a few examples of the many uses of AWS cloud. With its wide range of services and infrastructure, AWS can be used for many different types of applications and workloads, providing a flexible and scalable platform for businesses and organizations of all sizes.
+AWS Management Console
+After signing up for a new AWS account and logging in, you will see the console dashboard. This is the starting point for interacting with the various AWS services and other important console components. The dashboard consists of a navigation bar at the top and a number of widgets in the main body of the page, which you can configure and rearrange. AWS is developing more widgets so you can further customize your console experience.
+We will start by taking a look at the navigation bar at the top. In the image to the right, we have highlighted five controls within the navigation bar: 
+1.	Account information
+2.	Region selector
+3.	Service selector
+4.	Search box
+5.	AWS CloudShell
+
+
+
+
+
+
+
+
+
+AWS Command Line Interface:
+The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
+The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS IAM Identity Center (successor to AWS SSO), and various interactive features. The AWS CLI enables you to start running commands that implement functionality equivalent to that provided by the browser-based AWS Management Console from the command prompt in your terminal program:
+•	Linux shells – Use common shell programs such as bash, zsh, and tcsh to run commands in Linux or macOS.
+•	Windows command line – On Windows, run commands at the Windows command prompt or in PowerShell.
+•	Remotely – Run commands on Amazon Elastic Compute Cloud (Amazon EC2) instances through a remote terminal program such as PuTTY or SSH, or with AWS Systems Manager.
+All IaaS (infrastructure as a service) AWS administration, management, and access functions in the AWS Management Console are available in the AWS API and AWS CLI. New AWS IaaS features and services provide full AWS Management Console functionality through the API and CLI at launch or within 180 days of launch.
+The AWS CLI provides direct access to the public APIs of AWS services. You can explore a service's capabilities with the AWS CLI, and develop shell scripts to manage your resources. In addition to the low-level, API-equivalent commands, several AWS services provide customizations for the AWS CLI. Customizations can include higher-level commands that simplify using a service with a complex API.
+
+
+
+
+
+
+
+Result: 
+Thus the study about AWS cloud is made successfully.
